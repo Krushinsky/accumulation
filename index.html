@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="back">
+    <div class="heading">
+        <h1>Мои накопления</h1>
+    </div>
+
+    <div class="howMuch">
+        <p>Сколько хочу накопить?</p>
+        <input type="text" placeholder="Сколько хочу накопить..." id="howMuchMoney">
+        <p>Срок накопления (мес.)</p>
+        <input type="text" placeholder="Срок накопления..." id="howLong">
+    </div>
+<div class="selected">
+    
+        <select id="tip"> 
+            <option value="1">Откладывать фиксированную сумму</option>
+            <option value="2">Откладывать от меньшего к большему</option>
+            <option value="3">Откладывать от большего к меньшему</option>
+        </select>
+    
+    
+</div>
+<div class="btn">
+    <button id="btn">Посчитать</button>
+    <button id="btnTwo">Сбросить</button>
+
+</div>
+<div class="howMuch">
+    <p>Сколько нужно откладывать ежемесячно:</p>
+
+</div>
+
+<div class="result">
+    <p id="how"></p>
+    <ul class="ul"></ul>
+    <ul class="ull">     
+    </ul>
+</div>
+</div>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="my.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+    background-image: url(car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.back{
+    background-color: rgba(0, 119, 255, 0.671);
+    width: 600px;
+    border-radius: 40px;
+    box-shadow: 4px 2px 5px black;
+}
+.heading{
+    color: rgba(168, 6, 6, 0.671);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+.howMuch {
+    text-align: center;
+    color: rgba(32, 5, 5, 0.671);
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.selected{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.btn{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.result{
+    text-align: center;
+    color: rgba(32, 5, 5, 0.671);
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+input, #tip, option, #btn, #btnTwo{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: 1.5px 1px 2px black ;
+    text-align: center;
+    color: rgba(32, 5, 5, 0.671);
+    font-size: 13px;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+#btn:hover, #btnTwo:hover{
+    box-shadow: 2.5px 2px 2px rgb(153, 62, 62) ;
+}
+
+#btnTwo{
+    margin-left: 20px;
+}
+
+@media all and (max-width:500px){
+    .back{
+        width: 90%;
+        
+    }
+    #tip{
+        width: 90%;
+
+    }
+}
